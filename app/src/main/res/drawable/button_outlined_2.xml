@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<shape
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+
+    <stroke
+            android:color="@color/white"
+            android:width="@dimen/_6sdp"/>
+    <solid android:color="@color/transparent"/>
+
+    <gradient
+            android:startColor="#FF211A2E"
+            android:endColor="#FF333038"
+            android:angle="315"/>
+    <corners
+            android:radius="@dimen/_16sdp"/>
+
+
+
+</shape>-->
+
+<!--
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+    <gradient
+            android:angle="0"
+            android:endColor="#FF211A2E"
+            android:startColor="#FF333038"
+    />
+    <corners
+            android:radius="@dimen/_16sdp"/>
+    <stroke android:color="@color/white"
+    android:width="@dimen/_16sdp"/>
+</shape>
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:bottom="4dp"
+            android:left="4dp"
+            android:right="4dp"
+            android:top="4dp">
+        <shape android:shape="rectangle"/>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                    android:angle="90"
+                    android:endColor="#333038"
+                    android:gradientRadius="360"
+                    android:startColor="#211A2E"/>
+
+            <stroke
+                    android:width="@dimen/_4sdp"
+                    android:color="#DBDDE5"/><!--android:color="@color/grey"/>-->
+            <corners
+                    android:radius="@dimen/_16sdp"/>
+        </shape>
+    </item>
+
+
+</layer-list>
